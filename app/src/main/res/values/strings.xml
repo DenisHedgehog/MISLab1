@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MISLab1</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_lab_1">Л/Р 1</string>
+    <string name="title_lab_2">Л/Р 2</string>
+    <string name="title_lab_3">Л/Р 3</string>
+    <string name="title_lab_4">Л/Р 4</string>
+    <string name="title_lab_5">Л/Р 5</string>
+
+    <string name="elements_count_text">Элементов</string>
+    <string name="intervals_count_text">Интервалов</string>
+    <string name="standart_random_text">Стадрантная функция</string>
+    <string name="congr_random_text">Метод простых конгруэнций</string>
+    <string name="lemer_random_text">Метод линейной конгруэнтной последовательности Д. Г. Лемера</string>
+    <string name="graphic">График</string>
+    <string name="simpson_random_text">Распределение Симпсона</string>
+    <string name="simpson_trap_random_text">Распределение Симпсона с трапецеидальным законом распределения</string>
+    <string name="simpson_triangle_random_text">Распределение Симпсона с треугольным законом распределения</string>
+    <string name="normal_random_text">Нормальное распределение</string>
+    <string name="exponentional">Экспоненциональное распределение</string>
+    <string name="erlang">Распределение Эрланга</string>
+</resources>

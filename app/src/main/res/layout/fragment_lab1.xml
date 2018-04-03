@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.hedgehog.mislab1.Lab1Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/elements_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/elements_count_text"
+                    android:inputType="number"
+                    android:text="1000" />
+
+                <EditText
+                    android:id="@+id/intervals_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/intervals_count_text"
+                    android:inputType="number"
+                    android:text="10" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/standart_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/standart_random_text" />
+
+                <RadioButton
+                    android:id="@+id/congr_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/congr_random_text" />
+
+                <RadioButton
+                    android:id="@+id/lemer_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lemer_random_text" />
+
+                <RadioButton
+                    android:id="@+id/normal_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/normal_random_text" />
+
+                <RadioButton
+                    android:id="@+id/exponentional_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exponentional" />
+
+                <RadioButton
+                    android:id="@+id/erlang_random_rb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/erlang" />
+
+                <RadioButton
+                android:id="@+id/simpson_trap_random_rb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/simpson_trap_random_text"/>
+
+                <RadioButton
+                android:id="@+id/simpson_triangle_random_rb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/simpson_triangle_random_text"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="@string/graphic" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
